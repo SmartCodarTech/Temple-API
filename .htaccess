@@ -1,0 +1,20 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule . index.php [QSA,NC,L]
+</IfModule>
+
+# Prevent file browsing
+Options -Indexes
+<FilesMatch "\.(sqlite|xml|csv|txt|ini)$">
+Deny from all
+</FilesMatch>
+
+#php_flag register_globals 0
+#php_flag magic_quotes_gpc 0
+#php_flag magic_quotes_runtime 0
+
+
+

@@ -1,0 +1,261 @@
+
+
+#edit_mode_bar {
+ position: fixed;
+ right: 40px;
+ height: 100px;
+ width: 100px;
+ bottom: 50px;
+ background: #000;
+ z-index: 1200;
+
+    
+}
+#edit_mode_bar2 {
+ position: fixed;
+ right: 160px;
+ height: 100px;
+ width: 100px;
+ bottom: 50px;
+ background: #000;
+ z-index: 1200;
+
+    
+}
+/*   Modal Editing values */
+
+.edit-text-area{
+
+
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.notice{
+
+width: 100%;
+background:#92CF5C;
+margin: 0 auto 0px auto  !important;
+  
+border-bottom: 1px solid #fef; 
+padding: 20px 5px;
+vertical-align: middle;
+padding: 20px;
+z-index: 99999;
+position: fixed;
+top: 0;
+left: 0;
+color: #fff !important;
+font-size: 34px;
+line-height: 34px;
+font-family: "Lato Light" !important;
+display: none;
+text-align: center;
+
+
+}
+#edit_mode_bar2:hover {
+
+ background: #FF6600 ;
+
+
+    
+}
+#edit_mode_bar:hover {
+
+ background: #FF6600 ;
+
+
+    
+}
+#edit_mode_bar li {
+
+
+list-style: none;
+
+}
+#edit_mode_bar2 li {
+
+list-style: none;
+
+
+}
+#savebtns {
+
+
+
+  float: left;
+  width: 100px;
+  height: 100px;
+
+}
+#createbtns {
+ 
+
+  float: left;
+  width: 100px;
+  height: 100px;
+
+}
+
+.editHover{
+	background-color: #E8F3FF;
+}
+.editBox{
+	width:100%;
+	min-height: 20px;
+	padding: 10px 15px;
+	background-color: #fff !important;
+	border: 2px solid #E8F3FF;
+	clear: both;
+}
+.editBox a {
+	color: #fff;
+}
+
+
+#status {
+   text-decoration:  none;
+   font-size: 30px;
+   font-family: "Open Sans";
+   background-color: #1C1C1C;
+   color: #eee;
+
+   padding: 25px 15px;
+   position: fixed;
+   bottom: 150px;
+   line-height: 32px;
+   right: 40px;
+   z-index: 1300;
+    display: none;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+#status2 {
+   text-decoration:  none;
+   font: 24px;
+   font-family: "Open Sans";
+
+   float: right;
+   margin-right: 20px;
+   border-radius: 5px;
+   box-shadow: 1px 1px 2px 1px rgba(60,60,60,0.4);
+   background-color: rgba(254, 255, 255, 0.1);
+ 
+   color: #222;
+   border: 1px solid #999;
+   margin-top:12px;
+   padding: 10px;
+   position: fixed;
+   bottom: 70px;
+   left: 40px;
+   z-index: 100;
+   
+}
+.hidebtn{
+    
+    display: none;
+}
+
+
+
+.uploadform p {
+    
+    padding: 5px;
+}
+.uploadform {
+    text-decoration:  none;
+   font: 18px;
+   font-family: "Lato Light";
+   color: #222;
+
+   position: fixed;
+   left: 50px;
+   display: none;
+   width: auto;
+    position: fixed;
+ display: none;
+ bottom : 50px;
+ background: #000;
+ z-index: 1050;
+padding: 10px;
+height: 90px;
+ 
+    
+}
+
+.editable{
+    
+ 
+}
+
+
+#save_image{
+    
+    width: 32px;
+    height: 32px;
+    background: url(save.png) no-repeat #fff;
+    float: left;
+      border-radius: 5px; 
+}
+#create_image{
+    
+    width: 32px;
+    height: 32px;
+    background: url(create.png) no-repeat #fff;
+    float: left;
+    border-radius: 5px; 
+}
+.upmessage{
+    
+    clear: both;
+    font-size: 24px;
+    width: 300px;
+    margin-top: 50px;
+    height: 100px;
+    margin-left: 50px;
+    padding: 0 50px;
+    font-family:"Terminal Dosis Light" ;
+    line-height:  30px;
+    
+    
+}
+
+#up_message{
+    
+    width: 500px;
+    height: 200px;
+
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+ .alt_btn {
+	
+	padding: 15px !important;
+        margin-top: 20px;
+ }
+ #upform select {
+    box-shadow: 1px 1px 2px #F5F5F5;
+    display: inline-block;
+    margin: 0 3px 0 0;
+    outline: medium none;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+    line-height: 15px
+    
+ }
+ .clearform{
+    
+    clear: both;
+    height: 10px;
+ }
+
+

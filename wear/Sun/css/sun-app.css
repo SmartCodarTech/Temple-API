@@ -1,0 +1,828 @@
+/*-Text Colors---*/
+body {
+
+	background: #fff !important;
+}
+.color-blue{
+
+	color: #37CAEB !important;
+}
+
+.pricing-place{
+
+		background: url("../img/kid.jpg") no-repeat center !important;
+}
+/* - 1.0 Home - */
+
+.topback{
+
+background: url("../img/backgrounds/mosaic.png") repeat #eee !important;
+
+
+}
+.blcok {
+
+	display: inline-block;
+}
+
+
+.info-header {
+
+	z-index: 1000;
+	top: 0;
+	left: 0;
+}
+.beta{
+
+  position: absolute;
+    right: 40px;
+    top: -20px;
+    z-index: 88888;
+
+
+}
+.top h3 img{
+
+	vertical-align: middle;
+}
+
+.top h3 {
+
+	vertical-align: middle;
+}
+.middle{
+
+	vertical-align: middle !important;
+}
+
+.bg-default{
+
+    background: #0094BE;
+}
+
+.line-top-dark{
+
+	border-top: 1px solid #333;
+}
+.bottom-notice{
+
+    background: #fff;
+	height: 70px;
+	width: 100%;
+    z-index: 99999;
+        border-bottom: 2px solid #000;
+}
+.bottom-black{
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10px;
+    background: #000;
+    z-index: 9999993;
+    width: 100%;
+
+}
+.bg-steps{
+
+	background: #D14B4C;
+
+}
+.logo-image{
+
+	margin-top: -70px;
+}
+.bg-welcome{
+
+	background: url("../img/backgrounds/gray_jean.png") repeat;
+}
+
+.bg-footer{
+
+	background: url("../img/backgrounds/dark_wood.png") repeat;
+}
+.bg-features{
+
+	background: url("../img/backgrounds/crissXcross.png") repeat;
+}
+
+.bg-getting-started{
+
+		background: #E6F2DA;
+}
+.modal-dialog{
+
+	width: 800px !important;
+}
+.steps {
+
+	padding: 8px 15px;
+	border-radius: 300px;
+	width: 50px;
+	height: 50px;
+	background: #000;
+	color: #fff;
+	margin-right: 20px;
+	vertical-align: middle;
+
+}
+
+.bg-black{
+
+	background: #000;
+}
+.bg-white{
+
+	background: #000;
+}
+
+.level-demo{
+
+	position: absolute;
+	border-radius: 200px;
+	color: #fff;
+	text-align: center;
+	background: #C0392B;
+}
+/*===gallery */
+
+.bg-gallery{
+
+
+	background: #FFEBB6;
+}
+
+.bg-note{
+
+	background: #38393B;
+}
+
+.shadow-top{
+
+	background: url("../img/shadow-top.fw.png") center no-repeat;
+	height: 17px;
+	width: 100%;
+}
+
+.no-marginh1 {
+
+	margin-bottom:  0 !important;
+}
+
+
+.price {
+  font-size: 1.5em;
+}
+ 
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+ 
+.price-month {
+  font-size: 45%;
+  font-style: italic;
+}
+.panel {
+-webkit-transition-property : scale; 
+-webkit-transition-duration : 0.2s; 
+-webkit-transition-timing-function : ease-in-out; 
+-moz-transition : all 0.2s ease-in-out;  
+}
+ 
+.panel:hover {
+box-shadow: 0 0 10px rgba(0,0,0,.3);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+-webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+}
+
+.lifted{
+
+	box-shadow: 0 0 10px rgba(0,0,0,.3);
+-moz-box-shadow: 0 0 10px rgba(0,0,0,.3);
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.round-box {
+
+	border-radius: 500px;
+}
+
+/* # BORDER
+-------------------------------------*/
+#border {
+  position: relative;
+  background-color: #00B2E3;
+  background-image: url(../img/border/texture/wood.png);
+  background-repeat: repeat;
+  background-position: 0 2px;
+  z-index: 100;
+  /* TEXTURE */
+  /* SHOW or HIDE */ }
+  #border.wood {
+    background-image: url(../img/border/texture/wood.png); }
+  #border.grass {
+    background-image: url(../img/border/texture/grass.png); }
+  #border.grunge {
+  	  background-color:  #777 !important;
+    background-image: url(../img/border/texture/grunge.png) !important; }
+  #border.grain {
+    background-image: url(../img/border/texture/grain.png); }
+  #border.border-off {
+    display: none; }
+  #border .drop-shadow {
+    height: 7px;
+    position: relative;
+    bottom: -7px;
+    width: 100%;
+    background: url(../img/border/drop-shadow.png) repeat-x left bottom;
+    position: absolute; }
+
+#border-top {
+  background: url(../img/border/border-top-shadow.png) left bottom repeat-x;
+  height: 2px; }
+
+#border-body {
+  background-image: url(../img/border/border-body-shadow.png);
+  height: 30px; }
+
+.hide-bottom3{
+
+	margin-bottom: -30px !important;
+}
+
+.hide-bottom10{
+
+	margin-bottom: -100px !important;
+}
+
+/* # Buttons
+-------------------------------------*/
+
+.align-right .button {
+  margin: 0 0 20px 20px; }
+
+.button, .button:visited {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  background: #333333 url(../img/chess.png) repeat;
+  display: inline-block;
+  color: #fff !important;
+  text-decoration: none;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+  cursor: pointer;
+  margin: 0 20px 20px 0;
+  font-weight: normal;
+  letter-spacing: 1px;
+  overflow: hidden;
+  text-align: left; }
+  .button:active, .button:visited:active {
+    bottom: -1px; }
+  .button:hover, .button:visited:hover {
+    background-color: #222; }
+  .button.green, .button:visited.green {
+    background-color: #9ec408; }
+  .button.green:hover, .button:visited.green:hover {
+    background-color: #8fb108; }
+  .button.blue, .button:visited.blue {
+    background-color: #0293cf; }
+  .button.blue:hover, .button:visited.blue:hover {
+    background-color: #0186bd; }
+  .button.red, .button:visited.red {
+    background-color: #cf0101; }
+  .button.red:hover, .button:visited.red:hover {
+    background-color: #bc0101; }
+  .button.magenta, .button:visited.magenta {
+    background-color: #db0c67; }
+  .button.magenta:hover, .button:visited.magenta:hover {
+    background-color: #c10256; }
+  .button.orange, .button:visited.orange {
+    background-color: #ff5c00; }
+  .button.orange:hover, .button:visited.orange:hover {
+    background-color: #ff4800; }
+  .button.yellow, .button:visited.yellow {
+    background-color: #f3a601; }
+  .button.yellow:hover, .button:visited.yellow:hover {
+    background-color: #f39501; }
+  .button.amazon .bt-shadow, .button.android .bt-shadow, .button.apple .bt-shadow, .button.clock .bt-shadow, .button.download .bt-shadow, .button.google-play .bt-shadow, .button.mobile .bt-shadow, .button.tablet .bt-shadow, .button.window .bt-shadow, .button.themeforest .bt-shadow, .button.codecanyon .bt-shadow, .button.activeden .bt-shadow, .button.videohive .bt-shadow, .button.doc .bt-shadow, .button.support .bt-shadow, .button:visited.amazon .bt-shadow, .button:visited.android .bt-shadow, .button:visited.apple .bt-shadow, .button:visited.clock .bt-shadow, .button:visited.download .bt-shadow, .button:visited.google-play .bt-shadow, .button:visited.mobile .bt-shadow, .button:visited.tablet .bt-shadow, .button:visited.window .bt-shadow, .button:visited.themeforest .bt-shadow, .button:visited.codecanyon .bt-shadow, .button:visited.activeden .bt-shadow, .button:visited.videohive .bt-shadow, .button:visited.doc .bt-shadow, .button:visited.support .bt-shadow {
+    visibility: visible; }
+  .button.amazon span, .button:visited.amazon span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-amazon.png); }
+  .button.android span, .button:visited.android span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-android.png); }
+  .button.apple span, .button:visited.apple span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-apple.png); }
+  .button.clock span, .button:visited.clock span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-clock.png); }
+  .button.download span, .button:visited.download span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-download.png); }
+  .button.google-play span, .button:visited.google-play span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-google-play.png); }
+  .button.mobile span, .button:visited.mobile span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-mobile.png); }
+  .button.tablet span, .button:visited.tablet span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-tablet.png); }
+  .button.window span, .button:visited.window span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-window.png); }
+  .button.themeforest span, .button:visited.themeforest span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-themeforest.png); }
+  .button.activeden span, .button:visited.activeden span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-activeden.png); }
+  .button.videohive span, .button:visited.videohive span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-videohive.png); }
+  .button.codecanyon span, .button:visited.codecanyon span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-codecanyon.png); }
+  .button.doc span, .button:visited.doc span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-doc.png); }
+  .button.support span, .button:visited.support span {
+    padding-left: 77px;
+    background-image: url(../img/button/icon-support.png); }
+  .button.small span, .button:visited.small span {
+    font-size: 16px; }
+    .button.small span small, .button:visited.small span small {
+      font-size: 11px; }
+  .button span, .button:visited span {
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    position: relative;
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-top: rgba(255, 255, 255, 0.25) 1px solid;
+    padding: 10px 15px 8px;
+    line-height: 1em;
+    text-decoration: none;
+    display: block;
+    font-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 15px center; }
+    .button span small, .button:visited span small {
+      display: block;
+      font-size: 11px;
+      opacity: 0.85;
+      line-height: 1.25em;
+      margin: 3px 0 0 0; }
+  .button .bt-shadow, .button:visited .bt-shadow {
+    position: absolute;
+    width: 65px;
+    height: 80px;
+    background: url(../img/button/shadow.png) repeat-y 48px -1px;
+    left: -1px;
+    top: -1px;
+    visibility: hidden; }
+
+    /* FLEX SLIDERS */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none; }
+
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.flexslider {
+  margin: 0;
+  padding: 0;
+  position: relative; }
+
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+  background: none;
+  padding: 0;
+  margin: 0; }
+
+.flexslider .slides img {
+  max-width: 100%;
+  display: block; }
+
+.flex-pauseplay span {
+  text-transform: capitalize; }
+
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0; }
+
+html[xmlns] .slides {
+  display: block; }
+
+* html .slides {
+  height: 1%; }
+
+.no-js .slides > li:first-child {
+  display: block; }
+
+.flexslider .slides {
+  zoom: 1; }
+
+.flexslider .slides > li {
+  position: relative; }
+
+.slides > li > * {
+  margin-bottom: 0; }
+
+.slide-control {
+  float: right;
+  left: -50%;
+  position: relative;
+  margin: 15px 0 20px 0; }
+
+.flex-control-nav {
+  position: relative;
+  float: left;
+  left: 50%;
+  background: url(../img/slider/navigator-line.png) no-repeat 12px center;
+  list-style: none; }
+
+.flex-control-nav li {
+  float: left;
+  margin: 20px 0 0 12px; }
+
+.flex-control-nav li a {
+  display: block;
+  width: 19px;
+  height: 19px;
+  text-indent: -999em;
+  background: url(../img/slider/indicator.png) no-repeat 0 0;
+  cursor: pointer;
+  line-height: 1em; }
+
+.flex-control-nav li a.active {
+  background-position: 0 -19px; }
+
+  .frame {
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.025);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.025);
+  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.025);
+  padding: 4px;
+  border: 1px solid #EEE;
+  background: #FFF;
+  margin: 0 0 20px 0; }
+  .frame img {
+    width: 100%; }
+
+    /* ICONS */
+.icon {
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+  float: left;
+  display: block;
+  margin: -1px 15px 15px 0;
+  width: 38px;
+  height: 38px;
+  background: red url(../img/icons/basic1-138.png) no-repeat center center; }
+  .icon.orange {
+    background-color: #FF5C00; }
+  .icon.green {
+    background-color: #9EC408; }
+  .icon.red {
+    background-color: red; }
+  .icon.blue {
+    background-color: #0293CF; }
+  .icon.black {
+    background-color: #333; }
+  .icon.magenta {
+    background-color: #DB0C67; }
+  .icon.yellow {
+    background-color: #F3A601; }
+  .icon.icon-1 {
+    background-image: url(../img/icons/basic1-1.png); }
+  .icon.icon-2 {
+    background-image: url(../img/icons/basic1-2.png); }
+  .icon.icon-3 {
+    background-image: url(../img/icons/basic1-3.png); }
+  .icon.icon-4 {
+    background-image: url(../img/icons/basic1-4.png); }
+  .icon.icon-5 {
+    background-image: url(../img/icons/basic1-5.png); }
+  .icon.icon-6 {
+    background-image: url(../img/icons/basic1-6.png); }
+  .icon.icon-7 {
+    background-image: url(../img/icons/basic1-7.png); }
+  .icon.icon-8 {
+    background-image: url(../img/icons/basic1-8.png); }
+  .icon.icon-9 {
+    background-image: url(../img/icons/basic1-9.png); }
+  .icon.icon-10 {
+    background-image: url(../img/icons/basic1-10.png); }
+  .icon.icon-11 {
+    background-image: url(../img/icons/basic1-11.png); }
+  .icon.icon-12 {
+    background-image: url(../img/icons/basic1-12.png); }
+  .icon.icon-13 {
+    background-image: url(../img/icons/basic1-13.png); }
+  .icon.icon-14 {
+    background-image: url(../img/icons/basic1-14.png); }
+  .icon.icon-15 {
+    background-image: url(../img/icons/basic1-15.png); }
+  .icon.icon-16 {
+    background-image: url(../img/icons/basic1-16.png); }
+  .icon.icon-17 {
+    background-image: url(../img/icons/basic1-17.png); }
+  .icon.icon-18 {
+    background-image: url(../img/icons/basic1-18.png); }
+  .icon.icon-19 {
+    background-image: url(../img/icons/basic1-19.png); }
+  .icon.icon-20 {
+    background-image: url(../img/icons/basic1-20.png); }
+  .icon.icon-21 {
+    background-image: url(../img/icons/basic1-21.png); }
+  .icon.icon-22 {
+    background-image: url(../img/icons/basic1-22.png); }
+  .icon.icon-23 {
+    background-image: url(../img/icons/basic1-23.png); }
+  .icon.icon-24 {
+    background-image: url(../img/icons/basic1-24.png); }
+  .icon.icon-25 {
+    background-image: url(../img/icons/basic1-25.png); }
+  .icon.icon-26 {
+    background-image: url(../img/icons/basic1-26.png); }
+  .icon.icon-27 {
+    background-image: url(../img/icons/basic1-27.png); }
+  .icon.icon-28 {
+    background-image: url(../img/icons/basic1-28.png); }
+  .icon.icon-29 {
+    background-image: url(../img/icons/basic1-29.png); }
+  .icon.icon-30 {
+    background-image: url(../img/icons/basic1-30.png); }
+  .icon.icon-31 {
+    background-image: url(../img/icons/basic1-31.png); }
+  .icon.icon-32 {
+    background-image: url(../img/icons/basic1-32.png); }
+  .icon.icon-33 {
+    background-image: url(../img/icons/basic1-33.png); }
+  .icon.icon-34 {
+    background-image: url(../img/icons/basic1-34.png); }
+  .icon.icon-35 {
+    background-image: url(../img/icons/basic1-35.png); }
+  .icon.icon-36 {
+    background-image: url(../img/icons/basic1-36.png); }
+  .icon.icon-37 {
+    background-image: url(../img/icons/basic1-37.png); }
+  .icon.icon-38 {
+    background-image: url(../img/icons/basic1-38.png); }
+  .icon.icon-39 {
+    background-image: url(../img/icons/basic1-39.png); }
+  .icon.icon-40 {
+    background-image: url(../img/icons/basic1-40.png); }
+  .icon.icon-41 {
+    background-image: url(../img/icons/basic1-41.png); }
+  .icon.icon-42 {
+    background-image: url(../img/icons/basic1-42.png); }
+  .icon.icon-43 {
+    background-image: url(../img/icons/basic1-43.png); }
+  .icon.icon-44 {
+    background-image: url(../img/icons/basic1-44.png); }
+  .icon.icon-45 {
+    background-image: url(../img/icons/basic1-45.png); }
+  .icon.icon-46 {
+    background-image: url(../img/icons/basic1-46.png); }
+  .icon.icon-47 {
+    background-image: url(../img/icons/basic1-47.png); }
+  .icon.icon-48 {
+    background-image: url(../img/icons/basic1-48.png); }
+  .icon.icon-49 {
+    background-image: url(../img/icons/basic1-49.png); }
+  .icon.icon-50 {
+    background-image: url(../img/icons/basic1-50.png); }
+  .icon.icon-51 {
+    background-image: url(../img/icons/basic1-51.png); }
+  .icon.icon-52 {
+    background-image: url(../img/icons/basic1-52.png); }
+  .icon.icon-53 {
+    background-image: url(../img/icons/basic1-53.png); }
+  .icon.icon-54 {
+    background-image: url(../img/icons/basic1-54.png); }
+  .icon.icon-55 {
+    background-image: url(../img/icons/basic1-55.png); }
+  .icon.icon-56 {
+    background-image: url(../img/icons/basic1-56.png); }
+  .icon.icon-57 {
+    background-image: url(../img/icons/basic1-57.png); }
+  .icon.icon-58 {
+    background-image: url(../img/icons/basic1-58.png); }
+  .icon.icon-59 {
+    background-image: url(../img/icons/basic1-59.png); }
+  .icon.icon-60 {
+    background-image: url(../img/icons/basic1-60.png); }
+  .icon.icon-61 {
+    background-image: url(../img/icons/basic1-61.png); }
+  .icon.icon-62 {
+    background-image: url(../img/icons/basic1-62.png); }
+  .icon.icon-63 {
+    background-image: url(../img/icons/basic1-63.png); }
+  .icon.icon-64 {
+    background-image: url(../img/icons/basic1-64.png); }
+  .icon.icon-65 {
+    background-image: url(../img/icons/basic1-65.png); }
+  .icon.icon-66 {
+    background-image: url(../img/icons/basic1-66.png); }
+  .icon.icon-67 {
+    background-image: url(../img/icons/basic1-67.png); }
+  .icon.icon-68 {
+    background-image: url(../img/icons/basic1-68.png); }
+  .icon.icon-69 {
+    background-image: url(../img/icons/basic1-69.png); }
+  .icon.icon-70 {
+    background-image: url(../img/icons/basic1-70.png); }
+  .icon.icon-71 {
+    background-image: url(../img/icons/basic1-71.png); }
+  .icon.icon-72 {
+    background-image: url(../img/icons/basic1-72.png); }
+  .icon.icon-73 {
+    background-image: url(../img/icons/basic1-73.png); }
+  .icon.icon-74 {
+    background-image: url(../img/icons/basic1-74.png); }
+  .icon.icon-75 {
+    background-image: url(../img/icons/basic1-75.png); }
+  .icon.icon-76 {
+    background-image: url(../img/icons/basic1-76.png); }
+  .icon.icon-77 {
+    background-image: url(../img/icons/basic1-77.png); }
+  .icon.icon-78 {
+    background-image: url(../img/icons/basic1-78.png); }
+  .icon.icon-79 {
+    background-image: url(../img/icons/basic1-79.png); }
+  .icon.icon-80 {
+    background-image: url(../img/icons/basic1-80.png); }
+  .icon.icon-81 {
+    background-image: url(../img/icons/basic1-81.png); }
+  .icon.icon-82 {
+    background-image: url(../img/icons/basic1-82.png); }
+  .icon.icon-83 {
+    background-image: url(../img/icons/basic1-83.png); }
+  .icon.icon-84 {
+    background-image: url(../img/icons/basic1-84.png); }
+  .icon.icon-85 {
+    background-image: url(../img/icons/basic1-85.png); }
+  .icon.icon-86 {
+    background-image: url(../img/icons/basic1-86.png); }
+  .icon.icon-87 {
+    background-image: url(../img/icons/basic1-87.png); }
+  .icon.icon-88 {
+    background-image: url(../img/icons/basic1-88.png); }
+  .icon.icon-89 {
+    background-image: url(../img/icons/basic1-89.png); }
+  .icon.icon-90 {
+    background-image: url(../img/icons/basic1-90.png); }
+  .icon.icon-91 {
+    background-image: url(../img/icons/basic1-91.png); }
+  .icon.icon-92 {
+    background-image: url(../img/icons/basic1-92.png); }
+  .icon.icon-93 {
+    background-image: url(../img/icons/basic1-93.png); }
+  .icon.icon-94 {
+    background-image: url(../img/icons/basic1-94.png); }
+  .icon.icon-95 {
+    background-image: url(../img/icons/basic1-95.png); }
+  .icon.icon-96 {
+    background-image: url(../img/icons/basic1-96.png); }
+  .icon.icon-97 {
+    background-image: url(../img/icons/basic1-97.png); }
+  .icon.icon-98 {
+    background-image: url(../img/icons/basic1-98.png); }
+  .icon.icon-99 {
+    background-image: url(../img/icons/basic1-99.png); }
+  .icon.icon-100 {
+    background-image: url(../img/icons/basic1-100.png); }
+  .icon.icon-101 {
+    background-image: url(../img/icons/basic1-101.png); }
+  .icon.icon-102 {
+    background-image: url(../img/icons/basic1-102.png); }
+  .icon.icon-103 {
+    background-image: url(../img/icons/basic1-103.png); }
+  .icon.icon-104 {
+    background-image: url(../img/icons/basic1-104.png); }
+  .icon.icon-105 {
+    background-image: url(../img/icons/basic1-105.png); }
+  .icon.icon-106 {
+    background-image: url(../img/icons/basic1-106.png); }
+  .icon.icon-107 {
+    background-image: url(../img/icons/basic1-107.png); }
+  .icon.icon-108 {
+    background-image: url(../img/icons/basic1-108.png); }
+  .icon.icon-109 {
+    background-image: url(../img/icons/basic1-109.png); }
+  .icon.icon-110 {
+    background-image: url(../img/icons/basic1-110.png); }
+  .icon.icon-111 {
+    background-image: url(../img/icons/basic1-111.png); }
+  .icon.icon-112 {
+    background-image: url(../img/icons/basic1-112.png); }
+  .icon.icon-113 {
+    background-image: url(../img/icons/basic1-113.png); }
+  .icon.icon-114 {
+    background-image: url(../img/icons/basic1-114.png); }
+  .icon.icon-115 {
+    background-image: url(../img/icons/basic1-115.png); }
+  .icon.icon-116 {
+    background-image: url(../img/icons/basic1-116.png); }
+  .icon.icon-117 {
+    background-image: url(../img/icons/basic1-117.png); }
+  .icon.icon-118 {
+    background-image: url(../img/icons/basic1-118.png); }
+  .icon.icon-119 {
+    background-image: url(../img/icons/basic1-119.png); }
+  .icon.icon-120 {
+    background-image: url(../img/icons/basic1-120.png); }
+  .icon.icon-121 {
+    background-image: url(../img/icons/basic1-121.png); }
+  .icon.icon-122 {
+    background-image: url(../img/icons/basic1-122.png); }
+  .icon.icon-123 {
+    background-image: url(../img/icons/basic1-123.png); }
+  .icon.icon-124 {
+    background-image: url(../img/icons/basic1-124.png); }
+  .icon.icon-125 {
+    background-image: url(../img/icons/basic1-125.png); }
+  .icon.icon-126 {
+    background-image: url(../img/icons/basic1-126.png); }
+  .icon.icon-127 {
+    background-image: url(../img/icons/basic1-127.png); }
+  .icon.icon-128 {
+    background-image: url(../img/icons/basic1-128.png); }
+  .icon.icon-129 {
+    background-image: url(../img/icons/basic1-129.png); }
+  .icon.icon-130 {
+    background-image: url(../img/icons/basic1-130.png); }
+  .icon.icon-131 {
+    background-image: url(../img/icons/basic1-131.png); }
+  .icon.icon-132 {
+    background-image: url(../img/icons/basic1-132.png); }
+  .icon.icon-133 {
+    background-image: url(../img/icons/basic1-133.png); }
+  .icon.icon-134 {
+    background-image: url(../img/icons/basic1-134.png); }
+  .icon.icon-135 {
+    background-image: url(../img/icons/basic1-135.png); }
+  .icon.icon-136 {
+    background-image: url(../img/icons/basic1-136.png); }
+  .icon.icon-137 {
+    background-image: url(../img/icons/basic1-137.png); }
+  .icon.icon-138 {
+    background-image: url(../img/icons/basic1-138.png); }
+  .icon.icon-139 {
+    background-image: url(../img/icons/basic1-139.png); }
+
+/* BLOCKQUOTE */
+blockquote {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  padding: 30px 30px 0 30px;
+  margin: 0 0 30px 0;
+  background: #fafafa url(../img/chess.png) repeat;
+  letter-spacing: 0.5px; }
+  blockquote .rating-small-wrap {
+    width: 112px;
+    height: 22px;
+    background: url(../img/blockquote/rating-small.png) no-repeat 0 -22px;
+    float: left;
+    margin: 0;
+    padding-bottom: 20px; }
+  blockquote .rating-small-fill {
+    height: 22px;
+    background: url(../img/blockquote/rating-small.png) no-repeat 0 0; }
+  blockquote p {
+    margin: 0; }
+  blockquote cite {
+    font-size: 1em; }
+  blockquote p.cite {
+    text-align: right;
+    margin: 0 !important;
+    padding-bottom: 20px;
+    background: url(../img/blockquote/quote-dot.png) no-repeat right bottom; }

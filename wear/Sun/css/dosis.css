@@ -1,0 +1,55 @@
+
+@font-face {
+	font-family: 'Dosis';
+	src: url('../fonts/dosis/dosis.eot') format('embedded-opentype'),
+	     url('../fonts/dosis/dosis.woff') format('woff'),
+	     url('../fonts/dosis/dosis.ttf') format('truetype'),
+	     url('../fonts/dosis/dosis.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Amble';
+	src: url('../fonts/dosis/amble.eot') format('embedded-opentype'),
+	     url('../fonts/dosis/amble.woff') format('woff'),
+	     url('../fonts/dosis/amble.ttf') format('truetype'),
+	     url('../fonts/dosis/amble.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Amble';
+	src: url('../fonts/dosis/amble-bold.eot') format('embedded-opentype'),
+	     url('../fonts/dosis/amble-bold.woff') format('woff'),
+	     url('../fonts/dosis/amble-bold.ttf') format('truetype'),
+	     url('../fonts/dosis/amble-bold.svg') format('svg');
+	font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Arrows';
+	src: url('../fonts/dosis/arrows.eot') format('embedded-opentype'),
+	     url('../fonts/dosis/arrows.woff') format('woff'),
+	     url('../fonts/dosis/arrows.ttf') format('truetype'),
+	     url('../fonts/dosis/arrows.svg') format('svg');
+	font-weight: normal;
+    font-style: normal;
+}
+
+
+.arrow {
+	font-family: 'Arrows' !important;
+	
+}
+
+.dosis {
+
+	font-family: 'Dosis' !important;
+	
+}
+.amble {
+
+	font-family: 'Amble' !important;
+	
+}
